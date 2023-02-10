@@ -1,0 +1,19 @@
+this is just a file
+
+writting python code
+
+class Human:
+	
+	def __init__(self, name, age, gender):
+		self.name = name
+		self.age = age
+		self.gender = gender
+
+
+	def get_name(self):
+		if name == "":
+			print("name can be an empty string.")
+			while True:
+				input("please re enter your name:")
+			return self.name
+
