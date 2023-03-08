@@ -17,3 +17,38 @@ class Human:
 				input("please re enter your name:")
 			return self.name
 
+	def get_age(self):
+		return self.age
+
+	def get_gender(self):
+		return self.gender
+
+	def get_complexion(self, complexion):
+		complexions = ["fair", "dark", "choccolate"]
+		if self.complexion not in complexions:
+			print("invalid input for human complexions")
+			while True:
+				self.complexion = input("enter complexion from the list provided")
+			return self.complexion
+
+
+class Head(Human):
+	head_parts = ["ear", "nose", "mouth", "eye", "mouth", ""brain", "teeth""]
+	print(cls.Head)
+
+
+	def __init__(self. name, age, gender, head=True):
+		parts = input(f"kindly enter the parts of the head from {cls.head_parts")
+		super(). __init__(name. age. gender)
+		self.name = name
+		self.age = age
+		self.gender = gender
+		self.head =True
+	
+	@class method
+	def earing(cls, ear):
+	if cls.head_parts[0] in self.head_parts and: 
+		print("i have two ears so i cn ear"):		
+		else print(f"cls.name cant hear as he/she does not have ear")
+
+
